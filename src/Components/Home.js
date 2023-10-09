@@ -7,11 +7,11 @@ function Home(props) {
       <h1>Home Component</h1>
       <div className="add-to-cart">
         <span className="cart-count">{props?.data?.length}</span>
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/496/007/small/Ecommerce_998.jpg" />
+        <img alt="" src="https://static.vecteezy.com/system/resources/thumbnails/000/496/007/small/Ecommerce_998.jpg" />
       </div>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
-          <img src="https://www.fdfproject.com/wp-content/uploads/2018/12/iphone-png.png" />
+          <img alt="" src="https://www.fdfproject.com/wp-content/uploads/2018/12/iphone-png.png" />
         </div>
         <div className="text-wrapper item">
           <span>I-Phone</span>
